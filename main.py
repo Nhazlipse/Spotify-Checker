@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 
 os.system('cls' if os.name == 'nt' else 'clear')
-print("Made by ExeDesK#0628\nChrome 112 or later is required.")
+print("Nhazlipse\nChrome 112 or later is required.")
 
 with open("config.json", "r") as f:
     config = json.load(f)
