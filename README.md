@@ -20,7 +20,7 @@ pip install -r requirements.txt
 2. Add your Spotify account credentials to the `logins.txt` file, with each line in the format `username:password`.
 3. Run the script with the following command:
 ```Markdown
-python main.py
+python main.py / py -3 main.py
 ```
 
 The script will automatically launch Chrome and begin checking the accounts. Once completed, it will output a list of non-premium accounts to the console and send a message to Discord (if configured).
